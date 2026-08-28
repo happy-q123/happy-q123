@@ -1,5 +1,6 @@
 <div align="center">
 <img src="./assets/banner.svg" width="100%" alt="happy-q123 profile banner" />
+</div>
 
 ## 🧰 个人技术栈
 
@@ -48,6 +49,7 @@ Vue Router、Element Plus、Axios、ECharts、STOMP.js、WebRTC、Chrome Extensi
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven" />
 </p>
+
 ## 🚀 项目经历
 
 <table>
