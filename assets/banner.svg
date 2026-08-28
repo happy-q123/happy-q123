@@ -1,0 +1,61 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.48" stop-color="#172554"/>
+      <stop offset="1" stop-color="#164E63"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="390" y1="90" x2="820" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="0.5" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 178) rotate(90) scale(220 520)">
+      <stop stop-color="#22D3EE" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#A5F3FC" fill-opacity="0.12"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#dots)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#orb)"/>
+
+  <g opacity="0.65" stroke="url(#accent)" stroke-width="2">
+    <path d="M105 96L174 58L238 112L184 165L105 96Z"/>
+    <path d="M1015 245L1080 197L1140 245L1080 302L1015 245Z"/>
+    <path d="M174 58L184 165M1080 197V302" stroke-opacity="0.45"/>
+  </g>
+
+  <g fill="#CFFAFE" opacity="0.85">
+    <circle cx="105" cy="96" r="4"/><circle cx="174" cy="58" r="4"/>
+    <circle cx="238" cy="112" r="4"/><circle cx="184" cy="165" r="4"/>
+    <circle cx="1015" cy="245" r="4"/><circle cx="1080" cy="197" r="4"/>
+    <circle cx="1140" cy="245" r="4"/><circle cx="1080" cy="302" r="4"/>
+  </g>
+
+  <g font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="18" fill="#67E8F9" opacity="0.75">
+    <text x="70" y="268">{ create }</text>
+    <text x="1000" y="105">&lt;build /&gt;</text>
+  </g>
+
+  <text x="600" y="126" text-anchor="middle" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="1">Hi, I’m happy-q123</text>
+  <rect x="415" y="154" width="370" height="3" rx="1.5" fill="url(#accent)" filter="url(#softGlow)"/>
+  <text x="600" y="205" text-anchor="middle" fill="#CFFAFE" font-family="Segoe UI, Arial, sans-serif" font-size="24" letter-spacing="5">BUILD · LEARN · CREATE</text>
+  <text x="600" y="248" text-anchor="middle" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="19">把想法变成作品，在实践中持续成长</text>
+
+  <g transform="translate(516 284)" font-family="Consolas, Segoe UI, Arial, sans-serif" font-size="16">
+    <text x="0" y="0" fill="#818CF8">const</text>
+    <text x="49" y="0" fill="#E2E8F0">next =</text>
+    <text x="112" y="0" fill="#34D399">"better"</text>
+    <text x="180" y="0" fill="#E2E8F0">;</text>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="url(#accent)" stroke-opacity="0.45" stroke-width="2"/>
+</svg>
