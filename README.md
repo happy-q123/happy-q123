@@ -107,15 +107,15 @@ Vue Router、Element Plus、Axios、ECharts、STOMP.js、WebRTC、Chrome Extensi
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/happy-q123/exam-admin-fbs">⚙️ exam-admin-fbs</a></h3>
-      <p align="center"><b>在线考试微服务后端</b></p>
+      <h3 align="center"><a href="https://github.com/happy-q123/MailMindAgent">📬 MailMind Agent</a></h3>
+      <p align="center"><b>面向多邮箱的本地优先智能邮件工作台</b></p>
       <p><b>技术栈</b></p>
-      <p><code>Java 17</code> <code>Spring Boot</code> <code>Spring Cloud</code> <code>Nacos</code> <code>PostgreSQL</code> <code>Redis</code> <code>RocketMQ</code> <code>Spring AI</code></p>
+      <p><code>Python 3.12</code> <code>FastAPI</code> <code>LangGraph</code> <code>LangChain</code> <code>ChromaDB</code> <code>SQLite</code> <code>React 19</code> <code>TypeScript</code></p>
       <p><b>项目简介</b></p>
       <ul>
-        <li>拆分网关、认证、用户、题库、考试、消息和 AI 服务。</li>
-        <li>使用 OAuth2 Authorization Server、资源服务器与 JWT 完成鉴权。</li>
-        <li>集成 Ollama、Redis Vector Store、RAG、Advisor 与 MCP Client。</li>
+        <li>通过 IMAP/SMTP 统一接入多个邮箱，支持 UID 增量同步、失败退避与账户隔离。</li>
+        <li>使用 LangGraph 编排邮件研判流程，结合混合 RAG、线程上下文、长期记忆与 Copilot。</li>
+        <li>采用 local-first 设计，回复草稿须经人工审批才可外发，兼顾效率、可解释性与数据边界。</li>
       </ul>
     </td>
     <td width="50%" valign="top">
